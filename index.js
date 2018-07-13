@@ -24,25 +24,30 @@ $(document).ready(function() {
         $('#nv2').toggle([2000]);
     })
 });
+// ________________________________________________________________________________________________________________
 //collapse component 
 $(document).ready(function() {
     $('.collapse-content').hide();
 });
 $('#c1').click(function() {
     $('#cc1').toggle([3000]);
+    $('#c1').css('background','#e58a1b');
     $('#cc2').hide([3000]);
     $('#cc3').hide([3000]);
 });
 $('#c2').click(function() {
     $('#cc1').hide([3000]);
     $('#cc2').toggle([3000]);
+    $('#c2').css('background','#e58a1b');
     $('#cc3').hide([3000]);
 });
 $('#c3').click(function() {
     $('#cc1').hide([3000]);
     $('#cc2').hide([3000]);
     $('#cc3').toggle([3000]);
+    $('#c3').css('background','#e58a1b');
 });
+// ________________________________________________________________________________________________________________
 // modal functionality
 $(document).ready(function(){
     $('.modal-container').hide();
