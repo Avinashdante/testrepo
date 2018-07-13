@@ -1,13 +1,13 @@
 // nav bar 
 $(document).ready(function() {
     $('.fa-bars').hide();
-    if ($(window).width() < 360) {
+    if ($(window).width() < 425) {
         $('.fa-bars').show();
         $('#nv1').hide();
         $('#nv2').hide();
     }
     $(window).resize(function() {
-        if ($(window).width() < 360) {
+        if ($(window).width() < 425) {
             $('.fa-bars').show();
             $('#nv1').hide();
             $('#nv2').hide();
