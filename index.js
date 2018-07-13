@@ -11,12 +11,12 @@ $(document).ready(function() {
             $('.fa-bars').show();
             $('#nv1').hide();
             $('#nv2').hide();
+            $('.nav-container').css(flex-direction,column);
         }
         else {
             $('.fa-bars').hide();
             $('#nv1').show();
             $('#nv2').show();
-        
         }
     })
     $('.fa-bars').click(function() {
