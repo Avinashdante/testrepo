@@ -5,18 +5,20 @@ $(document).ready(function() {
         $('.fa-bars').show();
         $('#nv1').hide();
         $('#nv2').hide();
+        $('.nav-container').css('background-color','#167687');
     }
     $(window).resize(function() {
         if ($(window).width() < 425) {
             $('.fa-bars').show();
             $('#nv1').hide();
             $('#nv2').hide();
-            $('.nav-container').css(flex-direction,column);
+            $('.nav-container').css('background-color','#167687');
         }
         else {
             $('.fa-bars').hide();
             $('#nv1').show();
             $('#nv2').show();
+            $('.nav-container').css('background-color','#144970');
         }
     })
     $('.fa-bars').click(function() {
